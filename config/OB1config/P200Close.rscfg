@@ -1,0 +1,824 @@
+<Cluster>
+<Name></Name>
+<NumElts>2</NumElts>
+<String>
+<Name>Instrument SN</Name>
+<Val>01E0AE9A</Val>
+</String>
+<Array>
+<Name>RSch</Name>
+<Dimsize>4</Dimsize>
+<Object>
+<Name>RSchannel.lvclass</Name>
+<NumLevels>1</NumLevels>
+<Class>RSchannel.lvclass</Class>
+<Version>1.0.0.55</Version>
+<Cluster>
+<Name>RSchannel.lvclass</Name>
+<NumElts>17</NumElts>
+<Boolean>
+<Name>Feedback</Name>
+<Val>0</Val>
+</Boolean>
+<Cluster>
+<Name>Profile</Name>
+<NumElts>8</NumElts>
+<EW>
+<Name>Type</Name>
+<Choice>Constant</Choice>
+<Choice>Ramp</Choice>
+<Choice>Sinus</Choice>
+<Choice>Square</Choice>
+<Choice>Triangle</Choice>
+<Choice>Custom</Choice>
+<Val>0</Val>
+</EW>
+<DBL>
+<Name>Set cst</Name>
+<Val>200.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Set max</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Set min</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Period</Name>
+<Val>10.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Phase</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Disymetry</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<Array>
+<Name>Custom data</Name>
+<Dimsize>0</Dimsize>
+<Dimsize>0</Dimsize>
+<DBL>
+<Name>Numeric</Name>
+<Val></Val>
+</DBL>
+</Array>
+</Cluster>
+<Boolean>
+<Name>ON</Name>
+<Val>0</Val>
+</Boolean>
+<Refnum>
+<Name>Reg Ref</Name>
+<RefKind>Data Value Reference</RefKind>
+<Val>0x08800024</Val>
+</Refnum>
+<Refnum>
+<Name>Sens Connected Ref</Name>
+<RefKind>Data Value Reference</RefKind>
+<Val>0x0930002F</Val>
+</Refnum>
+<DBL>
+<Name>Time ref</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<Cluster>
+<Name>Regulation</Name>
+<NumElts>9</NumElts>
+<EW>
+<Name>PID type</Name>
+<Choice>PID Default</Choice>
+<Choice>PID Basic</Choice>
+<Choice>PID Small Reservoir</Choice>
+<Choice>PID Large Reservoir</Choice>
+<Choice>Test 1</Choice>
+<Choice>Test 2</Choice>
+<Choice>PI Basic</Choice>
+<Val>6</Val>
+</EW>
+<DBL>
+<Name>Isat</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<Cluster>
+<Name>Int error</Name>
+<NumElts>3</NumElts>
+<DBL>
+<Name>Error</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<U32>
+<Name>Time</Name>
+<Val>0</Val>
+</U32>
+<DBL>
+<Name>Prev_Error</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<DBL>
+<Name>Smooth rate</Name>
+<Val>500.00000000000000</Val>
+</DBL>
+<Boolean>
+<Name>Auto-tune PID?</Name>
+<Val>0</Val>
+</Boolean>
+<DBL>
+<Name>Max flow rate</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<Boolean>
+<Name>Tuning Completed?</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Reinitialize</Name>
+<Val>0</Val>
+</Boolean>
+<Cluster>
+<Name>PID Gains</Name>
+<NumElts>3</NumElts>
+<DBL>
+<Name>P</Name>
+<Val>1.00000000000000E-3</Val>
+</DBL>
+<DBL>
+<Name>I</Name>
+<Val>1.00000000000000E-3</Val>
+</DBL>
+<DBL>
+<Name>D</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+</Cluster>
+<DBL>
+<Name>previous time ref</Name>
+<Val>3716861.00000000000000</Val>
+</DBL>
+<String>
+<Name>Name</Name>
+<Val>DruckKontrollerOB1 Ch. 1</Val>
+</String>
+<Array>
+<Name>Coupling</Name>
+<Dimsize>0</Dimsize>
+<Cluster>
+<Name>Cluster</Name>
+<NumElts>2</NumElts>
+<DBL>
+<Name>Factor</Name>
+<Val></Val>
+</DBL>
+<String>
+<Name>Virtual ch</Name>
+<Val></Val>
+</String>
+</Cluster>
+</Array>
+<DBL>
+<Name>Increment</Name>
+<Val>10.00000000000000</Val>
+</DBL>
+<Refnum>
+<Name>Sens Seen Ref</Name>
+<RefKind>Data Value Reference</RefKind>
+<Val>0x0930002F</Val>
+</Refnum>
+<Boolean>
+<Name>have Focus</Name>
+<Val>1</Val>
+</Boolean>
+<DBL>
+<Name>Next Target value</Name>
+<Val>200.00000000000000</Val>
+</DBL>
+<Boolean>
+<Name>Update required</Name>
+<Val>0</Val>
+</Boolean>
+<DBL>
+<Name>previous smoothed value</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<Boolean>
+<Name>stop for modules</Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
+</Object>
+<Object>
+<Name>RSchannel.lvclass</Name>
+<NumLevels>1</NumLevels>
+<Class>RSchannel.lvclass</Class>
+<Version>1.0.0.55</Version>
+<Cluster>
+<Name>RSchannel.lvclass</Name>
+<NumElts>17</NumElts>
+<Boolean>
+<Name>Feedback</Name>
+<Val>0</Val>
+</Boolean>
+<Cluster>
+<Name>Profile</Name>
+<NumElts>8</NumElts>
+<EW>
+<Name>Type</Name>
+<Choice>Constant</Choice>
+<Choice>Ramp</Choice>
+<Choice>Sinus</Choice>
+<Choice>Square</Choice>
+<Choice>Triangle</Choice>
+<Choice>Custom</Choice>
+<Val>0</Val>
+</EW>
+<DBL>
+<Name>Set cst</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Set max</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Set min</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Period</Name>
+<Val>10.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Phase</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Disymetry</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<Array>
+<Name>Custom data</Name>
+<Dimsize>0</Dimsize>
+<Dimsize>0</Dimsize>
+<DBL>
+<Name>Numeric</Name>
+<Val></Val>
+</DBL>
+</Array>
+</Cluster>
+<Boolean>
+<Name>ON</Name>
+<Val>1</Val>
+</Boolean>
+<Refnum>
+<Name>Reg Ref</Name>
+<RefKind>Data Value Reference</RefKind>
+<Val>0x08900025</Val>
+</Refnum>
+<Refnum>
+<Name>Sens Connected Ref</Name>
+<RefKind>Data Value Reference</RefKind>
+<Val>0x07D00019</Val>
+</Refnum>
+<DBL>
+<Name>Time ref</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<Cluster>
+<Name>Regulation</Name>
+<NumElts>9</NumElts>
+<EW>
+<Name>PID type</Name>
+<Choice>PID Default</Choice>
+<Choice>PID Basic</Choice>
+<Choice>PID Small Reservoir</Choice>
+<Choice>PID Large Reservoir</Choice>
+<Choice>Test 1</Choice>
+<Choice>Test 2</Choice>
+<Choice>PI Basic</Choice>
+<Val>6</Val>
+</EW>
+<DBL>
+<Name>Isat</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<Cluster>
+<Name>Int error</Name>
+<NumElts>3</NumElts>
+<DBL>
+<Name>Error</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<U32>
+<Name>Time</Name>
+<Val>0</Val>
+</U32>
+<DBL>
+<Name>Prev_Error</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<DBL>
+<Name>Smooth rate</Name>
+<Val>500.00000000000000</Val>
+</DBL>
+<Boolean>
+<Name>Auto-tune PID?</Name>
+<Val>0</Val>
+</Boolean>
+<DBL>
+<Name>Max flow rate</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<Boolean>
+<Name>Tuning Completed?</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Reinitialize</Name>
+<Val>0</Val>
+</Boolean>
+<Cluster>
+<Name>PID Gains</Name>
+<NumElts>3</NumElts>
+<DBL>
+<Name>P</Name>
+<Val>1.00000000000000E-3</Val>
+</DBL>
+<DBL>
+<Name>I</Name>
+<Val>1.00000000000000E-3</Val>
+</DBL>
+<DBL>
+<Name>D</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+</Cluster>
+<DBL>
+<Name>previous time ref</Name>
+<Val>3716861.00000000000000</Val>
+</DBL>
+<String>
+<Name>Name</Name>
+<Val>DruckKontrollerOB1 Ch. 2</Val>
+</String>
+<Array>
+<Name>Coupling</Name>
+<Dimsize>0</Dimsize>
+<Cluster>
+<Name>Cluster</Name>
+<NumElts>2</NumElts>
+<DBL>
+<Name>Factor</Name>
+<Val></Val>
+</DBL>
+<String>
+<Name>Virtual ch</Name>
+<Val></Val>
+</String>
+</Cluster>
+</Array>
+<DBL>
+<Name>Increment</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<Refnum>
+<Name>Sens Seen Ref</Name>
+<RefKind>Data Value Reference</RefKind>
+<Val>0x0810001D</Val>
+</Refnum>
+<Boolean>
+<Name>have Focus</Name>
+<Val>1</Val>
+</Boolean>
+<DBL>
+<Name>Next Target value</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<Boolean>
+<Name>Update required</Name>
+<Val>1</Val>
+</Boolean>
+<DBL>
+<Name>previous smoothed value</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<Boolean>
+<Name>stop for modules</Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
+</Object>
+<Object>
+<Name>RSchannel.lvclass</Name>
+<NumLevels>1</NumLevels>
+<Class>RSchannel.lvclass</Class>
+<Version>1.0.0.55</Version>
+<Cluster>
+<Name>RSchannel.lvclass</Name>
+<NumElts>17</NumElts>
+<Boolean>
+<Name>Feedback</Name>
+<Val>0</Val>
+</Boolean>
+<Cluster>
+<Name>Profile</Name>
+<NumElts>8</NumElts>
+<EW>
+<Name>Type</Name>
+<Choice>Constant</Choice>
+<Choice>Ramp</Choice>
+<Choice>Sinus</Choice>
+<Choice>Square</Choice>
+<Choice>Triangle</Choice>
+<Choice>Custom</Choice>
+<Val>0</Val>
+</EW>
+<DBL>
+<Name>Set cst</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Set max</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Set min</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Period</Name>
+<Val>10.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Phase</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Disymetry</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<Array>
+<Name>Custom data</Name>
+<Dimsize>0</Dimsize>
+<Dimsize>0</Dimsize>
+<DBL>
+<Name>Numeric</Name>
+<Val></Val>
+</DBL>
+</Array>
+</Cluster>
+<Boolean>
+<Name>ON</Name>
+<Val>1</Val>
+</Boolean>
+<Refnum>
+<Name>Reg Ref</Name>
+<RefKind>Data Value Reference</RefKind>
+<Val>0x08A00026</Val>
+</Refnum>
+<Refnum>
+<Name>Sens Connected Ref</Name>
+<RefKind>Data Value Reference</RefKind>
+<Val>0x07E0001A</Val>
+</Refnum>
+<DBL>
+<Name>Time ref</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<Cluster>
+<Name>Regulation</Name>
+<NumElts>9</NumElts>
+<EW>
+<Name>PID type</Name>
+<Choice>PID Default</Choice>
+<Choice>PID Basic</Choice>
+<Choice>PID Small Reservoir</Choice>
+<Choice>PID Large Reservoir</Choice>
+<Choice>Test 1</Choice>
+<Choice>Test 2</Choice>
+<Choice>PI Basic</Choice>
+<Val>6</Val>
+</EW>
+<DBL>
+<Name>Isat</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<Cluster>
+<Name>Int error</Name>
+<NumElts>3</NumElts>
+<DBL>
+<Name>Error</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<U32>
+<Name>Time</Name>
+<Val>0</Val>
+</U32>
+<DBL>
+<Name>Prev_Error</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<DBL>
+<Name>Smooth rate</Name>
+<Val>500.00000000000000</Val>
+</DBL>
+<Boolean>
+<Name>Auto-tune PID?</Name>
+<Val>0</Val>
+</Boolean>
+<DBL>
+<Name>Max flow rate</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<Boolean>
+<Name>Tuning Completed?</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Reinitialize</Name>
+<Val>0</Val>
+</Boolean>
+<Cluster>
+<Name>PID Gains</Name>
+<NumElts>3</NumElts>
+<DBL>
+<Name>P</Name>
+<Val>1.00000000000000E-3</Val>
+</DBL>
+<DBL>
+<Name>I</Name>
+<Val>1.00000000000000E-3</Val>
+</DBL>
+<DBL>
+<Name>D</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+</Cluster>
+<DBL>
+<Name>previous time ref</Name>
+<Val>3716861.00000000000000</Val>
+</DBL>
+<String>
+<Name>Name</Name>
+<Val>DruckKontrollerOB1 Ch. 3</Val>
+</String>
+<Array>
+<Name>Coupling</Name>
+<Dimsize>0</Dimsize>
+<Cluster>
+<Name>Cluster</Name>
+<NumElts>2</NumElts>
+<DBL>
+<Name>Factor</Name>
+<Val></Val>
+</DBL>
+<String>
+<Name>Virtual ch</Name>
+<Val></Val>
+</String>
+</Cluster>
+</Array>
+<DBL>
+<Name>Increment</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<Refnum>
+<Name>Sens Seen Ref</Name>
+<RefKind>Data Value Reference</RefKind>
+<Val>0x0820001E</Val>
+</Refnum>
+<Boolean>
+<Name>have Focus</Name>
+<Val>1</Val>
+</Boolean>
+<DBL>
+<Name>Next Target value</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<Boolean>
+<Name>Update required</Name>
+<Val>1</Val>
+</Boolean>
+<DBL>
+<Name>previous smoothed value</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<Boolean>
+<Name>stop for modules</Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
+</Object>
+<Object>
+<Name>RSchannel.lvclass</Name>
+<NumLevels>1</NumLevels>
+<Class>RSchannel.lvclass</Class>
+<Version>1.0.0.55</Version>
+<Cluster>
+<Name>RSchannel.lvclass</Name>
+<NumElts>17</NumElts>
+<Boolean>
+<Name>Feedback</Name>
+<Val>0</Val>
+</Boolean>
+<Cluster>
+<Name>Profile</Name>
+<NumElts>8</NumElts>
+<EW>
+<Name>Type</Name>
+<Choice>Constant</Choice>
+<Choice>Ramp</Choice>
+<Choice>Sinus</Choice>
+<Choice>Square</Choice>
+<Choice>Triangle</Choice>
+<Choice>Custom</Choice>
+<Val>0</Val>
+</EW>
+<DBL>
+<Name>Set cst</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Set max</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Set min</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Period</Name>
+<Val>10.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Phase</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Disymetry</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<Array>
+<Name>Custom data</Name>
+<Dimsize>0</Dimsize>
+<Dimsize>0</Dimsize>
+<DBL>
+<Name>Numeric</Name>
+<Val></Val>
+</DBL>
+</Array>
+</Cluster>
+<Boolean>
+<Name>ON</Name>
+<Val>1</Val>
+</Boolean>
+<Refnum>
+<Name>Reg Ref</Name>
+<RefKind>Data Value Reference</RefKind>
+<Val>0x08B00027</Val>
+</Refnum>
+<Refnum>
+<Name>Sens Connected Ref</Name>
+<RefKind>Data Value Reference</RefKind>
+<Val>0x07F0001B</Val>
+</Refnum>
+<DBL>
+<Name>Time ref</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<Cluster>
+<Name>Regulation</Name>
+<NumElts>9</NumElts>
+<EW>
+<Name>PID type</Name>
+<Choice>PID Default</Choice>
+<Choice>PID Basic</Choice>
+<Choice>PID Small Reservoir</Choice>
+<Choice>PID Large Reservoir</Choice>
+<Choice>Test 1</Choice>
+<Choice>Test 2</Choice>
+<Choice>PI Basic</Choice>
+<Val>6</Val>
+</EW>
+<DBL>
+<Name>Isat</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<Cluster>
+<Name>Int error</Name>
+<NumElts>3</NumElts>
+<DBL>
+<Name>Error</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<U32>
+<Name>Time</Name>
+<Val>0</Val>
+</U32>
+<DBL>
+<Name>Prev_Error</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<DBL>
+<Name>Smooth rate</Name>
+<Val>500.00000000000000</Val>
+</DBL>
+<Boolean>
+<Name>Auto-tune PID?</Name>
+<Val>0</Val>
+</Boolean>
+<DBL>
+<Name>Max flow rate</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<Boolean>
+<Name>Tuning Completed?</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Reinitialize</Name>
+<Val>0</Val>
+</Boolean>
+<Cluster>
+<Name>PID Gains</Name>
+<NumElts>3</NumElts>
+<DBL>
+<Name>P</Name>
+<Val>1.00000000000000E-3</Val>
+</DBL>
+<DBL>
+<Name>I</Name>
+<Val>1.00000000000000E-3</Val>
+</DBL>
+<DBL>
+<Name>D</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+</Cluster>
+<DBL>
+<Name>previous time ref</Name>
+<Val>3716861.00000000000000</Val>
+</DBL>
+<String>
+<Name>Name</Name>
+<Val>DruckKontrollerOB1 Ch. 4</Val>
+</String>
+<Array>
+<Name>Coupling</Name>
+<Dimsize>0</Dimsize>
+<Cluster>
+<Name>Cluster</Name>
+<NumElts>2</NumElts>
+<DBL>
+<Name>Factor</Name>
+<Val></Val>
+</DBL>
+<String>
+<Name>Virtual ch</Name>
+<Val></Val>
+</String>
+</Cluster>
+</Array>
+<DBL>
+<Name>Increment</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<Refnum>
+<Name>Sens Seen Ref</Name>
+<RefKind>Data Value Reference</RefKind>
+<Val>0x0830001F</Val>
+</Refnum>
+<Boolean>
+<Name>have Focus</Name>
+<Val>1</Val>
+</Boolean>
+<DBL>
+<Name>Next Target value</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<Boolean>
+<Name>Update required</Name>
+<Val>1</Val>
+</Boolean>
+<DBL>
+<Name>previous smoothed value</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<Boolean>
+<Name>stop for modules</Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
+</Object>
+</Array>
+</Cluster>
