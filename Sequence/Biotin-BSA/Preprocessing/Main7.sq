@@ -1,0 +1,124 @@
+[0]
+Step type = 6
+Instrument SN = "RHEOASRL6::INSTR"
+Valve position = 1
+
+[1]
+Step type = 1
+waiting time = 300
+
+[2]
+Step type = 5
+RSMUX Type = 3
+Instrument SN = "01DCEEF0"
+Selected Channels = 0
+Unsynchronized  = FALSE
+wait end of Ramp = FALSE
+config Path = "/C/Users/Public/Documents/Elvesys/ESI/config/MuxWire/close.mxcfg"
+
+[3]
+Step type = 1
+waiting time = 20
+
+[4]
+Step type = 9
+Path = "/C/Users/Public/Documents/Elvesys/ESI/Sequence/Biotin-BSA/Preprocessing/Sub1.sq"
+Asynchrone launch = FALSE
+Stop condition = 0
+Timer = 0.000000
+
+[5]
+Step type = 6
+Instrument SN = "RHEOASRL6::INSTR"
+Valve position = 2
+
+[6]
+Step type = 1
+waiting time = 300
+
+[7]
+Step type = 9
+Path = "/C/Users/Public/Documents/Elvesys/ESI/Sequence/Biotin-BSA/Preprocessing/Sub2.sq"
+Asynchrone launch = FALSE
+Stop condition = 0
+Timer = 0.000000
+
+[8]
+Step type = 6
+Instrument SN = "RHEOASRL6::INSTR"
+Valve position = 3
+
+[9]
+Step type = 1
+waiting time = 300
+
+[10]
+Step type = 9
+Path = "/C/Users/Public/Documents/Elvesys/ESI/Sequence/Biotin-BSA/Preprocessing/Sub2.sq"
+Asynchrone launch = FALSE
+Stop condition = 0
+Timer = 0.000000
+
+[11]
+Step type = 6
+Instrument SN = "RHEOASRL6::INSTR"
+Valve position = 4
+
+[12]
+Step type = 1
+waiting time = 300
+
+[13]
+Step type = 9
+Path = "/C/Users/Public/Documents/Elvesys/ESI/Sequence/Biotin-BSA/Preprocessing/Sub2.sq"
+Asynchrone launch = FALSE
+Stop condition = 0
+Timer = 0.000000
+
+[14]
+Step type = 6
+Instrument SN = "RHEOASRL6::INSTR"
+Valve position = 5
+
+[15]
+Step type = 1
+waiting time = 300
+
+[16]
+Step type = 9
+Path = "/C/Users/Public/Documents/Elvesys/ESI/Sequence/Biotin-BSA/Preprocessing/Sub2.sq"
+Asynchrone launch = FALSE
+Stop condition = 0
+Timer = 0.000000
+
+[17]
+Step type = 6
+Instrument SN = "RHEOASRL6::INSTR"
+Valve position = 6
+
+[18]
+Step type = 1
+waiting time = 300
+
+[19]
+Step type = 9
+Path = "/C/Users/Public/Documents/Elvesys/ESI/Sequence/Biotin-BSA/Preprocessing/Sub2.sq"
+Asynchrone launch = FALSE
+Stop condition = 0
+Timer = 0.000000
+
+[20]
+Step type = 6
+Instrument SN = "RHEOASRL6::INSTR"
+Valve position = 7
+
+[21]
+Step type = 1
+waiting time = 300
+
+[22]
+Step type = 9
+Path = "/C/Users/Public/Documents/Elvesys/ESI/Sequence/Biotin-BSA/Preprocessing/Sub2.sq"
+Asynchrone launch = FALSE
+Stop condition = 0
+Timer = 0.000000

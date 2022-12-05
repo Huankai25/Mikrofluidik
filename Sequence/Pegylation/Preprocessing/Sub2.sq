@@ -1,0 +1,42 @@
+[0]
+Step type = 5
+RSMUX Type = 2
+Instrument SN = "01E0AE9A"
+Selected Channels = -1
+Unsynchronized  = FALSE
+wait end of Ramp = FALSE
+config Path = "/C/Users/Public/Documents/Elvesys/ESI/config/Saved_by_Sequence/P200Open.rscfg"
+
+[1]
+Step type = 1
+waiting time = 5000
+
+[2]
+Step type = 5
+RSMUX Type = 2
+Instrument SN = "01E0AE9A"
+Selected Channels = -1
+Unsynchronized  = FALSE
+wait end of Ramp = FALSE
+config Path = "/C/Users/Public/Documents/Elvesys/ESI/config/Saved_by_Sequence/P200Open.rscfg"
+
+[3]
+Step type = 2
+Instrument SN = "01E0AE9A"
+type of condition = 1
+Go to step = 3
+RScomp type = 2
+Physical channel = 0
+above_under = 0
+value = 400.000000E+0
+trigger_index = 0
+type_of_data = 1
+
+[4]
+Step type = 5
+RSMUX Type = 2
+Instrument SN = "01E0AE9A"
+Selected Channels = -1
+Unsynchronized  = FALSE
+wait end of Ramp = FALSE
+config Path = "/C/Users/Public/Documents/Elvesys/ESI/config/Saved_by_Sequence/P200Close.rscfg"
